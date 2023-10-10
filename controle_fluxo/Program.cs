@@ -1,18 +1,16 @@
-﻿Produto[] produtos = new Produto[] {
-    new(){
-        Nome = "Produto 1",
+﻿using controle_fluxo;
+
+Produto[] produtos = new Produto[] {
+    new("Produto 1"){
         Ativo = true
     },
-    new(){
-        Nome = "Produto 2",
+    new("Produto 2"){
         Ativo = false
     },
-    new(){
-        Nome = "Produto 3",
+    new("Produto 3"){
         Ativo = false
     },
-    new(){
-        Nome = "Produto 4",
+    new("Produto 4"){
         Ativo = true
     }
 };
