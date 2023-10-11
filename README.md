@@ -45,11 +45,27 @@ numero += 10; // numero = numero + 10;
 
 Os operadores lógicos sempre irão retornar TRUE ou FALSE após sua execução, dentre os principais operadores lógicos podemos citar
 
-- > Maior que
+- \> Maior que
 - < Menor que
-- >= Maior OU igual que
+- \>= Maior OU igual que
 - <= Menor OU igual que
 - == Igual a
 - != Diferente de
 - && Operador lógico E (ambos os lados devem ser verdadeiros para retornar verdadeiro)
 - || Operador lógico OU (ambos os lados devem ser falsos para retornar falso)
+
+# Funcões
+
+São blocos de códigos que podem ser reutilizados pela aplicação, ao invés de escrever o mesmo código N vezes, deixamos esse código dentro de uma função e chamamos a função.
+
+Tipos de função:
+
+- void: sem retorno
+- bool: retorna true ou false
+- string: retorna um texto
+
+Podemos seguir assim com todos os tipos primitivos de dados, porém também é possível criar tipos de referência como retorno.
+
+- Produto: retorna um produto
+- object: retorna um objeto
+- Produto[]: retorna uma lista de produtos
