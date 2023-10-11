@@ -1,8 +1,8 @@
 namespace controle_fluxo
 {
-    public class Produto
+    internal class Produto
     {
-        public Produto(string nome)
+        internal Produto(string nome)
         {
             Nome = nome;
 
